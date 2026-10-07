@@ -1,0 +1,16 @@
+{
+  "name": "mylib",
+  "version": "1.0.0",
+  "description": "Basic arithmetic library with a demo program and Mocha + Chai unit tests",
+  "type": "module",
+  "main": "src/mylib.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "mocha"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^5.0.0",
+    "mocha": "^11.0.0"
+  }
+}
